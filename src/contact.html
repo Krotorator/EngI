@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    //= partials/head.html
+</head>
+
+<body>
+    //= partials/heading.html
+
+    <header id="header" class="header header--small" style="background-image: url(img/contactbg.jpg)">
+        <div class="header__content">
+            <h1 class="header__title">Contact us ok</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section class="contact" id="section">
+            <div class="contact__text">
+                <h2 class="contact__title tech__title">Got a project in mind?</h2>
+                <p class="contact__description tech__description">Briefly describe the idea for your project. Our team will study it and then we’ll figure out the next move together.</p>
+                <p class="contact__description tech__description"> Contact us by sending direct mail to <a href="mailto: krotoratotor@gmail.com">engineering-idea.com</a></p>
+            </div>
+            <form action="" method="POST" class="form">
+                <textarea class="form__message" name="message" placeholder="Tell us about your idea" required></textarea>
+                <div class="form__item">
+                    <input class="form__input" type="text" name="userName" required>
+                    <label class="form__label">Your Name</label>
+                </div>
+                <div class="form__item">
+                    <input class="form__input" type="email" name="userEmail" required>
+                    <label class="form__label">Your Email</label>
+                </div>
+                <button class="form__btn hvr-radial-out" type="submit" disabled>send</button>
+            </form>
+        </section>
+    </div>
+
+
+
+
+
+    //= partials/footer.html
+    <!-- скрипты -->
+    //= partials/scripts.html
+    
+    </body>
+    
+    </html>
