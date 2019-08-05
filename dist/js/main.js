@@ -14286,6 +14286,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
         handler: function (direction) {
             heading.toggleClass('heading--white');
             burgCol.toggleClass('burger__line--black');
+            $('.evenz__heading').toggleClass('heading--transp');
+            $('.dl__heading').toggleClass('heading--green');
         }
     })
  
@@ -14293,7 +14295,6 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
         $(this).siblings().addClass('form__label--active');
         $(this).parent().addClass('form__item--animate');
         $(this).siblings().css("color", "#673AB7");
-        console.log($(this));
     })
 
     $('.form__input').blur(function () {

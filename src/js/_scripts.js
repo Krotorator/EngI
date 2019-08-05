@@ -15,6 +15,8 @@
         handler: function (direction) {
             heading.toggleClass('heading--white');
             burgCol.toggleClass('burger__line--black');
+            $('.evenz__heading').toggleClass('heading--transp');
+            $('.dl__heading').toggleClass('heading--green');
         }
     })
  
